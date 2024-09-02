@@ -24,7 +24,7 @@ def driver():
 
 def test_show_my_pets(driver):
    # Вводим email
-   driver.find_element(By.ID, 'email').send_keys('yrikmolnenosec@mail.ru')
+   driver.find_element(By.ID, 'email').send_keys('1234@mail.ru')
    # Вводим пароль
    driver.find_element(By.ID, 'pass').send_keys('1234')
    # Нажимаем на кнопку входа в аккаунт
@@ -48,7 +48,7 @@ def test_show_my_pets(driver):
 
 def test_show_my_pets2(driver):
    # Вводим email
-   driver.find_element(By.ID, 'email').send_keys('yrikmolnenosec@mail.ru')
+   driver.find_element(By.ID, 'email').send_keys('1234@mail.ru')
    # Вводим пароль
    driver.find_element(By.ID, 'pass').send_keys('1234')
    # Нажимаем на кнопку входа в аккаунт
